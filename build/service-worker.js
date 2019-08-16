@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Twice-demo/build/precache-manifest.934d1adb73a4e26f4d288103f6aa2f80.js"
+  "/Twice-demo/build/precache-manifest.49e880ef4dc4caac113de975873aa5fb.js"
 );
 
 self.addEventListener('message', (event) => {
