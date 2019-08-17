@@ -51,8 +51,7 @@ function AppRouter(){
             </Content>
             <Footer><h3 className="center">
                 <img src="https://api.gushi.ci/all.svg" 
-                style={{maxWidth:'100%'}} alt="gushi" /><copyright>Copyright © 2019 </copyright>
-            </h3>
+                style={{maxWidth:'100%'}} alt="gushi" />Copyright © 2019</h3>
             </Footer>
             </Layout>
             

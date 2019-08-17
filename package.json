@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy":"http://localhost:3000",
+  "proxy":"https://gank.io/api/data",
   "homepage": "https://helloqingfeng.github.io/Twice-demo/build/",
   "eslintConfig": {
     "extends": "react-app"

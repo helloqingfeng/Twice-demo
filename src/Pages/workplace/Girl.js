@@ -28,8 +28,9 @@ class Girl extends Component {
                 this.state.imglist.map((item, index) => {
                     return (
                     <div key = { index } >
-                    <img src={item.url}  alt="美女" width="750px"/>
+                    <img src={item.url}  alt={item.who} width="750px" />
                     </div>
+                    
                     )
                 })
             } 

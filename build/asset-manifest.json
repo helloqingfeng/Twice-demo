@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Twice-demo/build/static/css/main.8797b8f7.chunk.css",
-    "main.js": "/Twice-demo/build/static/js/main.8496c41b.chunk.js",
-    "main.js.map": "/Twice-demo/build/static/js/main.8496c41b.chunk.js.map",
+    "main.css": "/Twice-demo/build/static/css/main.5336bd01.chunk.css",
+    "main.js": "/Twice-demo/build/static/js/main.f5f8365c.chunk.js",
+    "main.js.map": "/Twice-demo/build/static/js/main.f5f8365c.chunk.js.map",
     "runtime~main.js": "/Twice-demo/build/static/js/runtime~main.0ca381da.js",
     "runtime~main.js.map": "/Twice-demo/build/static/js/runtime~main.0ca381da.js.map",
     "static/css/2.93e9ecf4.chunk.css": "/Twice-demo/build/static/css/2.93e9ecf4.chunk.css",
     "static/js/2.b7dd699d.chunk.js": "/Twice-demo/build/static/js/2.b7dd699d.chunk.js",
     "static/js/2.b7dd699d.chunk.js.map": "/Twice-demo/build/static/js/2.b7dd699d.chunk.js.map",
     "index.html": "/Twice-demo/build/index.html",
-    "precache-manifest.49e880ef4dc4caac113de975873aa5fb.js": "/Twice-demo/build/precache-manifest.49e880ef4dc4caac113de975873aa5fb.js",
+    "precache-manifest.781ed11270047f5f057f5a2ff6624dc4.js": "/Twice-demo/build/precache-manifest.781ed11270047f5f057f5a2ff6624dc4.js",
     "service-worker.js": "/Twice-demo/build/service-worker.js",
     "static/css/2.93e9ecf4.chunk.css.map": "/Twice-demo/build/static/css/2.93e9ecf4.chunk.css.map",
-    "static/css/main.8797b8f7.chunk.css.map": "/Twice-demo/build/static/css/main.8797b8f7.chunk.css.map"
+    "static/css/main.5336bd01.chunk.css.map": "/Twice-demo/build/static/css/main.5336bd01.chunk.css.map"
   }
 }
