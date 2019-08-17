@@ -7,8 +7,8 @@ const ProductList = (props) => {
             {
                 props.webList.map((item, index) => {
                     return (
-                        <ul>
-                            <li key={index}>
+                        <ul key={index}>
+                            <li>
                                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                                     {item.desc}
                                 </a>
