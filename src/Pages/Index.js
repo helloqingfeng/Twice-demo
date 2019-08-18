@@ -8,12 +8,11 @@ class Index extends Component {
     render() { 
         return (
             <div className="beaut-txt">
+                <h2 className="center">入吾室者，但有清风；对吾饮者，惟当明月</h2>
                 <p className="image">
                 <img src="https://raw.githubusercontent.com/helloqingfeng/Wendy-pic/master/img/20190816185118.jpg" alt="付佳美"/>
                 </p>
-               
-            <h3 className="center">入吾室者，但有清风；对吾饮者，惟当明月</h3>
-            <hr></hr>
+                    <hr></hr>
                 <p> <b>王国维喜欢春天：</b>四时可爱唯春日，一事能狂便少年。</p>
                 <p> <b>杜甫喜欢夏天：</b>黄四娘家花满蹊，千朵万朵压枝低。</p>
                 <p> <b>陶渊明喜欢秋天：</b>采菊东篱下，悠然见南山。</p>
