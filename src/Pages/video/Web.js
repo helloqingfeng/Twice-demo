@@ -10,7 +10,7 @@ class Web extends Component {
     }
 
     componentDidMount(){
-        axios.get('/%E5%89%8D%E7%AB%AF/30/3')
+        axios.get('http://gank.io/api/data/%E5%89%8D%E7%AB%AF/30/3')
         .then((res)=>{
             console.log(res);
             this.setState({

@@ -24,7 +24,7 @@ class Text extends Component {
         .then((res)=>{
             console.log(res)
             this.setState({
-                imgList:res.data
+                imgList:res.data.img
             })
         });
         axios.get('https://api.gushi.ci/all')
@@ -36,11 +36,14 @@ class Text extends Component {
         })
     }
     
-    render() { 
+    render() {
         return ( 
             <div className="center">
                 <div className="ci-box">
-                <div style={{ background: 'url("https://raw.githubusercontent.com/helloqingfeng/Wendy-pic/master/img/20190816184311.jpg") center center no-repeat' }} className="ci-bgm"></div>
+                
+                <div style={{ backgroundImage: `url(${this.state.imgList})`}}
+                className="ci-bgm">
+                </div>
                 <div className="ci-content">
                 <div className="bracket-left">『</div>
                 <p>{this.state.gushiList.content}</p>

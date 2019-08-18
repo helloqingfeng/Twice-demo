@@ -10,7 +10,7 @@ class Ios extends Component {
     }
 
     componentDidMount(){
-        axios.get('https://gank.io/api/data/iOS/20/2')
+        axios.get('http://gank.io/api/data/iOS/20/2')
         .then((res)=>{
             console.log(res);
             this.setState({

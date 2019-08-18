@@ -12,7 +12,7 @@ class Front extends React.Component {
 }
 
     componentDidMount(){
-        axios.get('https://gank.io/api/data/拓展资源/30/1')
+        axios.get('http://gank.io/api/data/拓展资源/30/1')
         .then((res)=>{
             this.setState({
                 webList:res.data.results
