@@ -10,7 +10,8 @@ class Ios extends Component {
     }
 
     componentDidMount(){
-        axios.get('http://gank.io/api/data/iOS/20/2')
+        axios.get('https://cors-anywhere.herokuapp.com/' 
+        +'http://gank.io/api/data/iOS/20/2')
         .then((res)=>{
             console.log(res);
             this.setState({
