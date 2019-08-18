@@ -16,7 +16,8 @@ class Detail extends Component {
     }
 
     componentDidMount() {
-        axios.get(`https://cnodejs.org/api/v1/topic/${this.props.match.params.bid}`)
+        axios.get('https://cors-anywhere.herokuapp.com/' +
+            `https://cnodejs.org/api/v1/topic/${this.props.match.params.bid}`)
             .then((res) => {
                 console.log(res);
                 this.setState({

@@ -29,7 +29,7 @@ function Video(){
                 {
                     videoRoute.map((item,index)=>{
                         return(
-                        <div>
+                        <div key={index}>
                         <Redirect to="/video/reactpage/" />
                         <Route path={item.path} component={item.component}  key={index}/>
                         </div>

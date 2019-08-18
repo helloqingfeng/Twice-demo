@@ -10,7 +10,7 @@ const { Header,Footer, Content } = Layout;
 
 function AppRouter(){
     let routeConfig=[
-        {path:'/',title:'博客首页',exact:true,component:Index},
+        {path:'/index',title:'博客首页',exact:false,component:Index},
         {path:'/video/',title:'技术资源',exact:false,component:Video},
         {path:'/workplace',title:'日常生活',exact:false,component:Workplace},
         {path:'/about',title:'关于我',exact:false,component:About}
